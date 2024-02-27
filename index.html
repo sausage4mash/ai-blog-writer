@@ -27,19 +27,31 @@
             width: 400px; /* Adjust size as needed */
             height: auto;
         }
+
+        /* Button styles */
+        .round-go-button {
+          display: inline-block;
+          font-size: 20px; /* Adjust the font size as needed */
+          padding: 15px 30px; /* Adjust padding to make the button bigger */
+          border-radius: 50%; /* This makes the button round */
+          border: none; /* Removes the border */
+          background-color: #4CAF50; /* Background color of the button */
+          color: white; /* Text color */
+          cursor: pointer; /* Changes the cursor to a pointer on hover */
+          text-decoration: none; /* Removes underline from the text */
+        }
+
+        .round-go-button:hover {
+          background-color: #45a049; /* Slightly darker shade on hover */
+        }
     </style>
 </head>
 <body>
     <div class="container">
       <h1 style="color: white;">AI BLOG WRITER</h1>
-
         <img src="BOT.png" alt="AI Blog Writing Bot" class="bot-image">
-        <form action="" class="search-bar">
-            <input type="search" name="search" pattern=".*\S.*" required>
-            <button class="search-btn" type="submit">
-                <span>Search</span>
-            </button>
-        </form>
+        <!-- Add the Go button -->
+        <a href="list.html" class="round-go-button">Go</a>
     </div>
 </body>
 </html>
