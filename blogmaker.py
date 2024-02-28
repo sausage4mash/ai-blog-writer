@@ -97,8 +97,8 @@ body {{
       
     </div>
     <div class="card">
-      <h2> to fill </h2>
-      <p> to fill </p>
+      <h2> another great title  </h2>
+      <p> {content_hook} </p>
     </div>
   </div>
   <div class="rightcolumn">
@@ -115,9 +115,15 @@ body {{
 
     <div class="card">
       <h3>Popular Post</h3>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div>
+      <div class="bot-image" style="height:250px;">
+        <img src="1.png" alt="add 1" style="max-height: 100%; width: auto;">
+      </div>
+      <div class="bot-image" style="height:250px;">
+        <img src="2.png" alt="add 2" style="max-height: 100%; width: auto;">
+      </div>
+      <div class="bot-image" style="height:250px;">
+        <img src="3.png" alt="add 3" style="max-height: 100%; width: auto;">
+      </div>
     </div>
     <div class="card">
       <h3>Follow Me</h3>
