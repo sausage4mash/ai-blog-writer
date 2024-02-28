@@ -105,7 +105,7 @@ body {{
     <div class="card">
       <h2>About Me</h2>
       
-      <div class="bot-image" style="height:250px;">
+      <div class="bot-image" style="height:200px;">
         <img src="BOT.png" alt="AI Blog Writing Bot" style="max-height: 100%; width: auto;">
       </div>
 
